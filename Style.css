@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Sarala & display=swap');
+
+body {
+    float: left;
+}
+
+.conteudo-esquerda {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 330px;
+    height: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);;
+}
+
+.conteudo-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 330px;
+    width: 1000px;
+    height: 100%;
+    margin-left: 25px;
+    font-family: 'Sarala', sans-serif;
+}
+
+#imagem-perfil {
+    width: 175px;
+    border-radius: 50%;
+    border: solid 10px #2F2325;;
+    height: 175px;
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    color: #918f8e;
+}
+
+.links:hover,
+.links:active {
+    color: #FFF2E7;
+}
+
+#titulo-nome {
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#sobrenome {
+    color: #e22545;
+    margin-left: 15px;
+}
+
+#dados-pessoais {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+#email {
+    color: #e22545;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+#descricao {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(46, 43, 43);
+}
+
+#imagem-wpp {
+    width: 70px;
+}
+
+#links-redes {
+    justify-content: space-evenly;
+    margin-left: 0;
+}
+
+.arrumar {
+    margin: 10px;
+    margin-left: 0;
+    width: 30px;
+}
+
+ol.c {
+    list-style-type: upper-latin;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+.nao-ordenada {
+    position: absolute;
+    left: 330px;
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.lista-nao-ordenada {
+    color: #e22545;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family:'Sarala', sans-serif;
+    margin-bottom: 5px;
+}
+
+.lista-ordenada {
+    color: #e22545;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family:'Sarala', sans-serif;
+}
+
+.lista {
+    position: absolute;
+    left: 330px;
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
